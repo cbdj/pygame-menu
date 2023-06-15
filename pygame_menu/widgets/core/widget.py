@@ -1718,7 +1718,7 @@ class Widget(Base):
         surface = make_surface(
             width=text.get_width(),
             height=text.get_height(),
-            alpha=True
+            alpha=False
         )
 
         # Draw shadow first
